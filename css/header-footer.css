@@ -1,0 +1,147 @@
+/* fonts  */
+
+@font-face {
+    font-family: 'PT Sans Bold'; 
+    src: url(../fonts/PT_Sans/PTSans-Bold.ttf); 
+}
+@font-face {
+    font-family: 'PT Sans Bold Italic'; 
+    src: url(../fonts/PT_Sans/PTSans-BoldItalic.ttf); 
+}
+@font-face {
+    font-family: 'PT Sans Italic'; 
+    src: url(../fonts/PT_Sans/PTSans-Italic.ttf); 
+}
+@font-face {
+    font-family: 'PT Sans'; 
+    src: url(../fonts/PT_Sans/PTSans-Regular.ttf); 
+}
+/* fonts  */
+/* header  */
+.head-footContainer{
+    width: 90%;
+    margin: 0 auto;
+}
+.headerBody{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13);
+    width: 100%;
+    height: auto;
+    z-index: +2;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    
+}
+
+.logoTitle{
+    font-size: 24px;
+    font-family: 'Red Rose', cursive;
+    font-weight: 500;
+    margin: 0;
+}
+.logoSpan{
+    font-size: 9px;
+}
+.headerLogo{
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    cursor: pointer;
+}
+.menuItems{
+    display: flex;
+    margin: 0;
+}
+.headerMenu{
+    display: flex;
+    align-items: center;
+}
+.menuItem{
+    font-size: 22px;
+    padding: 5px 20px; 
+    list-style: none;
+    color: black;
+    font-family: 'PT Sans Bold Italic';
+    border-bottom: rgba(0, 0, 0, 0) 1px solid;
+}
+.menuItem:hover{
+    color: #c30000;
+    border-bottom: #c1c1c1;
+    transition: 0.4s;
+    text-decoration: none;
+    border-bottom: #c30000 1px solid;
+}
+.activeMenuItem{
+    color: #c30000;
+    border-bottom: #c30000 1px solid;
+}
+.activeMenuItem:hover{
+    color: black;
+    border-bottom: rgba(0, 0, 0, 0) 1px solid;
+}
+.userAvatar{
+    height: 48px;
+    width: 48px;
+    background-color: #c1c1c1;
+    border-radius: 50%;
+}
+.headerUserName{
+    font-family: 'PT Sans';
+    color: green;
+    padding-right: 10px;
+    box-sizing: border-box
+}
+.headerUser{
+    display: flex;
+    align-items: center;
+}
+/* header */
+
+
+
+/* footer */
+.footer{
+    background-color: #1c1c1c;
+    width: 100%;
+}
+.footerLogo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
+.footerLogoTitle{
+    color: white;
+    font-size: 48px;
+    font-family: 'Red Rose', cursive;
+    font-weight: 500;
+    margin: 0;
+}
+.footerLogoSpan{
+    color: white;
+    font-size: 18px;
+    font-family: 'Red Rose', cursive;
+    font-weight: 500;
+    margin: 0;
+}
+.sloganSpan{
+    position: absolute;
+    left: 70px;
+    top: 70px;
+    color: white;
+    font-size: 18px;
+    font-family: 'PT Sans Bold Italic';
+    font-weight: 500;
+    margin: 0;
+}
+.socialNetworks{
+    margin-top: 30px;
+}
+.soc{
+    height: 32px;
+    cursor: pointer;
+}
+/* footer */

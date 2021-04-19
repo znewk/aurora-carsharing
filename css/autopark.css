@@ -1,0 +1,191 @@
+/* fonts  */
+
+@font-face {
+    font-family: 'PT Sans Bold'; 
+    src: url(../fonts/PT_Sans/PTSans-Bold.ttf); 
+}
+@font-face {
+    font-family: 'PT Sans Bold Italic'; 
+    src: url(../fonts/PT_Sans/PTSans-BoldItalic.ttf); 
+}
+@font-face {
+    font-family: 'PT Sans Italic'; 
+    src: url(../fonts/PT_Sans/PTSans-Italic.ttf); 
+}
+@font-face {
+    font-family: 'PT Sans'; 
+    src: url(../fonts/PT_Sans/PTSans-Regular.ttf); 
+}
+/* fonts  */
+
+#contentBody{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+}
+
+.carInfoBlock{
+    width: 70%;
+    height: 100%;
+    padding-right: 5%;
+}
+.carInfoHeader{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.carInfoModelBlock{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.carInfoBrand{
+    font-family: 'PT Sans Bold';
+    color: #c30000;
+    font-size: 36px;
+}
+.carInfoModel{
+    font-family: 'PT Sans Bold';
+    color: #686868;
+    font-size: 26px;
+}
+.carInfoDesc{
+    font-family: 'PT Sans Bold';
+    color: #1c1c1c;
+    font-size: 18px;
+}
+.carInfoPrice{
+    font-family: 'PT Sans Bold';
+    color: #c30000;
+    font-size: 26px;
+}
+.carInfoPriceBlock{
+    text-align: right
+}
+.carSlider{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.photosBlock{
+    width: 70%;
+    margin-top: 100px;
+}
+.carPhotoBigSlider{
+    width: 100%;
+}
+.slick-prev:before, .slick-next:before {
+    color: black !important;
+}
+
+.carCriteriesBody{
+    display: flex;
+    justify-content: space-between;
+}
+.carCriteries{
+    font-family: 'PT Sans Bold';
+    font-size: 18px;
+}
+.carCriteriesValue{
+    text-align: right;
+}
+
+/* right  */
+
+.carSelectBlock{
+    width: 30%;
+    height: auto;
+    background-color: #1C1C1C;
+}
+.carSelectFilter{
+    margin: 10px;
+}
+.carSelectFilterIcon{
+    height: 16px;
+    margin-right: 10px;
+}
+.carSelectFiletrSpan{
+    font-family: 'PT Sans';
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#carFilterBlock{
+    width: 100%;
+    height: auto;
+    border-radius: 0 0 20px 20px;
+    background: #c30000;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.carFilterSelect{
+    width: 40%;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    margin: 0 10px 10px 0;
+    padding: 5px 10px;
+}
+.carFilterSelect option{
+    color: black;
+}
+.carFilterSelect:focus{
+    outline: none;
+}
+.carFilterSpan{
+    color: white;
+    font-family: 'PT Sans';
+    font-size: 16px;
+}
+.carsSlider{
+    width: 100%;
+    height: auto;
+}
+.carCard{
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+    background: #2D2E37;
+    transition: 0.3s;
+    padding: 10px;
+}
+.carCardTitle{
+    font-family: 'PT Sans Bold';
+    color: #fff;
+    transition: 0.3s;
+}
+.carCard:hover .carCardTitle{
+    color: #c30000;
+}
+.carCard:hover{
+    background-color: #ffff;
+}
+.carCardPhotoBody{
+    width: 30%;
+}
+.carCardInfoBody{
+    display: inline;
+}
+.carCardPhoto{
+    width: 100%
+}
+.carCardDesc{
+    font-family: 'PT Sans';
+    transition: 0.3s;
+}
+.carCard:hover .carCardDesc{
+    color: #c30000;
+}
+.carCardPrice{
+    font-size: 18px;
+    font-family: 'PT Sans Bold';
+    transition: 0.3s;
+}
+.carCard:hover .carCardPrice{
+    color: #c30000;
+}

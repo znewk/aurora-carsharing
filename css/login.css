@@ -1,0 +1,41 @@
+/* fonts  */
+
+@font-face {
+    font-family: 'PT Sans Bold'; 
+    src: url(../fonts/PT_Sans/PTSans-Bold.ttf); 
+}
+@font-face {
+    font-family: 'PT Sans Bold Italic'; 
+    src: url(../fonts/PT_Sans/PTSans-BoldItalic.ttf); 
+}
+@font-face {
+    font-family: 'PT Sans Italic'; 
+    src: url(../fonts/PT_Sans/PTSans-Italic.ttf); 
+}
+@font-face {
+    font-family: 'PT Sans'; 
+    src: url(../fonts/PT_Sans/PTSans-Regular.ttf); 
+}
+/* fonts  */
+
+.loginBod{
+    height: 100vh;
+    background-color: #1c1c1c;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginForm{
+    height: auto;
+    width: 300px;
+    background-color: #c30000;
+}
+.loginTitle{
+    font-family: 'PT Sans Bold Italic';
+    color: white;
+    font-size: 24px; 
+    
+    text-align: center;
+}
+

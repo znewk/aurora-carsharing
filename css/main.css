@@ -1,0 +1,233 @@
+/* fonts  */
+
+@font-face {
+    font-family: 'PT Sans Bold'; 
+    src: url(../fonts/PT_Sans/PTSans-Bold.ttf); 
+}
+@font-face {
+    font-family: 'PT Sans Bold Italic'; 
+    src: url(../fonts/PT_Sans/PTSans-BoldItalic.ttf); 
+}
+@font-face {
+    font-family: 'PT Sans Italic'; 
+    src: url(../fonts/PT_Sans/PTSans-Italic.ttf); 
+}
+@font-face {
+    font-family: 'PT Sans'; 
+    src: url(../fonts/PT_Sans/PTSans-Regular.ttf); 
+}
+/* fonts  */
+
+.introBackground{
+    width: 100%;
+
+    background: #F8F8F8;
+}
+.introContentBody{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.Container{
+    width: 80%;
+    margin: 0 auto;
+}
+.introBody{
+    width: 70%;
+    display: flex;
+}
+.introContentBody{
+    width: 100%;
+}
+.introIllustartions{
+    width: 50%;
+    height: auto;
+    position: relative;
+}
+.introTitle{
+    font-family: 'PT Sans Bold Italic'; 
+    font-size: 72px;
+    width: 100%;
+}
+.introText{
+    width: 100%;
+    font-family: 'PT Sans Bold Italic';
+    font-size: 18px;
+    color: #686868;
+    width: 60%;
+}
+.redLine{
+    left: 50px;
+    width: 300px;
+    height: 95vh;
+    background: #c30000;
+    position: relative;
+}
+.intro{
+    display: flex;
+}
+.introCar{
+    position: absolute;
+    width: 800px;
+    top: 250px;
+    right: -200px;
+}
+.redLineLogo{
+    color: white;
+    font-size: 24px;
+    font-family: 'Red Rose', cursive;
+    border-bottom: 2px solid white;
+}
+.redLineLogoBody{
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+.backgroundSpan{
+    position: absolute;
+    font-family: 'PT Sans Bold Italic'; 
+    color: rgba(206, 206, 206, 0.2);
+    font-size: 100px;
+    right: 0;
+}
+.backgroundLogo{
+    position: absolute;
+    font-family: 'Red Rose', cursive; 
+    color: rgba(206, 206, 206, 0.2);
+    text-decoration: underline;
+    font-size: 128px;
+    left: 250px;
+    top: 600px;
+}
+.cities{
+    margin-top: 40px;
+}
+.introCity{
+    width: 100%;
+    font-family: 'PT Sans Bold Italic';
+    font-size: 18px;
+    color: #686868;
+    width: 60%;
+    padding-right: 10px;
+}
+.geoIcon{
+    height: 20px;
+    margin-right: 5px;
+}
+.blackButton{
+    font-family: 'PT Sans Italic';
+    background: transparent;
+    border: 1px black solid;
+    width: 150px;
+    margin-top: 50px;
+    transition: 0.3s;
+}
+.blackButton:hover{
+    width: 150px;
+    color: white;
+    background: #c30000;
+    border: #c30000 1px solid;
+    transition: 0.3s;
+}
+
+/* about us */
+
+.aboutUsBlock{
+    width: 100%;
+    height: 100vh;
+    background: #1C1C1C;
+}
+.aboutUsContentBody{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.aboutUsLeftBox{
+    width: 50%;
+    margin-top: 10%;
+}
+.aboutUsRightBox{
+    width: 50%;
+}
+.aboutUsTitle{
+    color: white;
+    font-family: 'Red Rose', cursive; 
+    display: block;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.whiteButton{
+    display: block;
+    font-family: 'PT Sans Italic';
+    background: transparent;
+    border: 1px white solid;
+    color: white;
+    width: 150px;
+    margin-top: 50px;
+    transition: 0.3s;
+}
+
+.whiteButton:hover{
+    width: 150px;
+    color: white;
+    background: #c30000;
+    border: #c30000 1px solid;
+    transition: 0.3s;
+}
+.aboutUsLogo{
+    color: white;
+}
+.aboutUslogoTitle{
+    font-size: 48px;
+}
+.aboutUslogoSpan{
+    font-size: 18px;
+}
+.aboutUsLosung{
+    color: #c30000;
+    font-family: 'PT Sans Bold Italic';
+    font-size: 24px;
+    display: flex;
+    margin-left: 30%;
+}
+.aboutUsLeftIll{
+    width: 100%;
+}
+
+/* why Us  */
+
+.whyUsBlock{
+    width: 100%;
+    height: auto;
+    background: #1C1C1C;
+    text-align: center;
+}
+
+.whyUsTitle{
+    color: white;
+    font-family: 'PT Sans Bold Italic';
+    font-size: 36px;
+}
+.whyUsBlocks{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.whyUsBox{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    word-wrap: break-word;
+    margin-top: 50px;
+}
+.whyUsBlockImg{
+    width: 64px;
+}
+.whyUsBlockSpan{
+    margin-top: 30px;
+    color: white;
+    font-family: 'PT Sans Bold Italic';
+}
