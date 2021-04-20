@@ -203,6 +203,8 @@
     height: auto;
     background: #1C1C1C;
     text-align: center;
+    padding-bottom:20vh;
+    
 }
 
 .whyUsTitle{
@@ -214,6 +216,8 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding:7vh;
+    
 }
 .whyUsBox{
     width: 30%;

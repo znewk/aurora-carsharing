@@ -1,0 +1,213 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+div.black{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color:#1C1C1C;
+    padding-top:7vh;
+    padding-bottom:10vh;
+}
+.fisrt{
+    display: block;
+    width: 390px;
+    
+}
+.h1_h3{
+    display: block;
+    
+    height: 60px;
+}
+p.big{
+    display: flex;
+    font-size: 60px;
+    /* padding-top: 50px; */
+    padding-left: 100px;
+    color: white;
+    margin-bottom: 0%;
+}
+p.medium{
+  
+    padding-left: 110px;
+    color: white;
+    width:100%;
+    font-size: 20px;
+}
+p.small{
+    margin-top: 50px;
+    font-size: 15px;
+    
+    width:100%;
+    color: white;
+    margin-left: 110px;
+    font-style: italic;
+}
+.logo{
+    display: flex;
+    /* padding: 10px; */
+    margin-left: 140px;
+    margin-top: 20px;
+}
+.insta{
+    justify-content: center;
+    padding-top: 3px;
+    padding-left: 3px;
+}
+.face{
+    justify-content: center;
+    padding-top: 3px;
+    padding-left: 3px;
+}
+.twit{
+    justify-content: center;
+    padding-top: 3px;
+    padding-left: 3px;
+}
+.insta_white{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #fff;
+    margin-right: 10px;
+}
+.face_white{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #fff;
+    margin-right: 10px;
+}
+.twit_white{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #fff;
+}
+.navigate{
+    display: block;
+    margin-left: 500px;
+    
+    width: 150px;
+    height: 180px;
+    
+}
+.navigation{
+    margin-bottom: 0%;
+    margin-left: 30px;
+    color: white;
+}
+
+ul.otmena_tochek{
+    list-style-type: none;
+    font-size: 20px;
+    font-style: italic;
+}
+li{
+  color: #fff;
+}
+a{
+    text-decoration: none;
+}
+li.usluga{
+   margin-bottom:10px ;
+   color: red;
+}
+li.uslovia{
+    margin-bottom: 10px;
+}
+li.avto_park{
+    margin-bottom: 10px;
+}
+a.red{
+    color: red;
+}
+a.white{
+    color: white;
+}
+.contacts_connection{
+    display: block;
+    margin-left: 100px;
+   
+    width: 250px;
+    height: 180px;
+}
+.contact{
+    color: white;
+    margin-bottom: 0%;
+    /* margin-left: 30px; */
+}
+.address{
+    display: flex;
+   
+}
+ul.vse_dannye{
+    list-style-type: none;
+    font-size: 20px;
+    font-style: italic;
+    width: 260px;
+    height: 100px;
+
+    
+}
+.mesto{
+    margin-bottom: 15px;
+    margin-left: 0%;
+    
+}
+.phone{
+    margin-bottom: 15px;
+    
+}
+
+.logo_2{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.gis_white{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #fff;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.gis{
+    justify-content: center;
+    padding-top: 3px;
+    padding-left: 3px;
+    
+}
+.tele_white{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #fff;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.telephone{
+    justify-content: center;
+    padding-top: 3px;
+    padding-left: 3px;
+}
+.post_white{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #fff;
+    margin-right: 10px;
+    
+}
+.post{
+    justify-content: center;
+    padding-top: 3px;
+    padding-left: 3px;
+}
+iframe{
+    
+    margin-left: 60px;
+}
