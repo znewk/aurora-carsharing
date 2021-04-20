@@ -1,6 +1,3 @@
-let userCart = [0]
-let setCart = localStorage.setItem('userCart', JSON.stringify(userCart))
-
 $('#carFilterBlock').hide();
 let carFilterBlockHidden = true;
 
@@ -161,42 +158,12 @@ class Car {
 let autopark = [
     new Car('TOYOTA', 'YARIS CROSS', 'Кроссовер для большого города. Создан для комфортных поездок.', 'Кроссовер', 'Желтый', 2015, 1.6, 'Нур-Султан', 799, 5, 'АКПП', 'Полный', 'toyota_yaris_cross.png', 'toyota_yaris_cross.png'),
     new Car('NISSAN', 'MAGNITE', 'Бери, крутая тачка.', 'Кроссовер', 'Красный', 2015, 3.5, 'Алматы', 990, 5, 'АКПП', 'Полный', 'nissan_magnite.png', 'nissan_magnite_back.png'),
-    new Car('BRUICK', 'LACROSSE', 'Супер машина, бери.', 'Седан', 'Красный', 2015, 1.6, 'Алматы', 890, 4, 'АКПП', 'Полный', 'bruick_lacrosse.png', 'bruick_lacrosse.png'),
-    new Car('HYUNDAI', 'ELANTRA', 'Комфорт все дела', 'Седан', 'Черный', 2010, 1.6, 'Нур-Султан', 590, 4, 'АКПП', 'Передний', 'hyundai_elantra.png', 'hyundai_elantra.png'),
-    new Car('RENAULT', 'DUSTER', 'Кроссовер для большого города. Создан для комфортных поездок.', 'Кроссовер', 'Оранжевый', 2010, 3.5, 'Нур-Султан', 990, 5, 'АКПП', 'Полный', 'renault_duster.png', 'renault_duster_back.png'),
-    new Car('MARMON', 'SIXTEEN', 'Пожилой дед.', 'Седан', 'Красный', 1961, 3.5, 'Нур-Султан', 4990, 5, 'АКПП', 'Задний', 'marmon_sixteen.png', 'marmon_sixteen.png'),
-    new Car('VOLKSWAGEN', 'POLO', 'Крутая машины, всем советую', 'Седан', 'Оранжевый', 2018, 1.6, 'Алматы', 790, 4, 'АКПП', 'Задний', 'volkswagen_polo.png', 'volkswagen_polo.png'),
-    new Car('TOYOTA', 'LAND CRUISER PRADO TX', 'Классная машины, афигенная.', 'Кроссовер', 'Черный', 2018, 3.5, 'Алматы', 990, 5, 'АКПП', 'Полный', 'toyota_land_cruiser_prado.png', 'toyota_land_cruiser_prado.png'),
-    new Car('BMW', 'X1 E84', 'Блин вообще крутая машины.', 'Кроссовер', 'Черный', 2012, 3.5, 'Нур-Султан', 990, 5, 'АКПП', 'Полный', 'bmx_x1.png', 'bmx_x1.png'),
-    new Car('MITSUBISHI', 'ECLIPSE', 'Блин вообще крутая машины.', 'Кроссовер', 'Серый', 2016, 3.5, 'Нур-Султан', 1990, 5, 'АКПП', 'Полный', 'mitsubishi_eclipse.png', 'mitsubishi_eclipse.png')
+    new Car('BRUICK', 'LACROSSE', 'Супер машина, бери.', 'Седан', 'Красный', 2015, 1.6, 'Алматы', 890, 4, 'АКПП', 'Полный', 'bruick_lacrosse.png', 'bruick_lacrosse.png')
+
 ]
 
 let carsSliderBlock = $('#carsSliderBlock')
 let carInfoBlock = $('#carInfoBlock')
-
-let addToCart = (infoCarBrand,
-    infoCarModel,
-    infoCarDesc,
-    infoCarBody,
-    infoCarColor,
-    infoCarYear,
-    infoCarVolume,
-    infoCarCity,
-    infoCarPrice,
-    infoPassengersCount,
-    infoCarTransmission,
-    infoCarDriveUnit,
-    infoCarPhotoSrc1,
-    infoCarPhotoSrc2) => {
-
-        let cart = JSON.parse(localStorage.getItem('userCart'))
-
-        cart.push(
-            new Car(infoCarBrand,infoCarModel,infoCarDesc,infoCarBody,infoCarColor,infoCarYear,infoCarVolume,infoCarCity,infoCarPrice,infoPassengersCount,infoCarTransmission,infoCarDriveUnit,infoCarPhotoSrc1,infoCarPhotoSrc2)
-        )
-        localStorage.setItem('userCart', JSON.stringify(cart) )
-        console.log('hello')
-}
 
 let OpenCar = (infoCarBrand,
     infoCarModel,
@@ -254,20 +221,6 @@ let OpenCar = (infoCarBrand,
     ${infoCarColor} <br>
     </span>
 </div>
-<button class="addToCartButton" onclick="addToCart(${infoCarBrand}',
-    '${infoCarModel}',
-    '${infoCarDesc}',
-    '${infoCarBody}',
-    '${infoCarColor}',
-    '${infoCarYear}',
-    '${infoCarVolume}',
-    '${infoCarCity}',
-    '${infoCarPrice}',
-    '${infoPassengersCount}',
-    '${infoCarTransmission}',
-    '${infoCarDriveUnit}',
-    '${infoCarPhotoSrc1}',
-    '${infoCarPhotoSrc2}')">Добавить в корзину</button>
         `)
 }
 
