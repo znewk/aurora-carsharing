@@ -1,13 +1,4 @@
-//let checkbox = document.getElementById("checkbox");
-//console.log(checkbox);
-//let check = () => {
-
-//}
-//$("#checkbox").
-
-
 localStorage.setItem("users", JSON.stringify([]));
-
 let loginBtn = document.getElementById("loginBtn");
 loginBtn.addEventListener("click",function(){
     let nameInput = document.getElementById("nameInput");
@@ -20,10 +11,8 @@ loginBtn.addEventListener("click",function(){
         email: emailInput.value,
         password: passwordInput.value
     }
-
     let users = JSON.parse(localStorage.getItem("users"));
     users.push(userInfo);
-
     localStorage.setItem("users", JSON.stringify(users));
+     location.href = "carSharingformInfo.html";
 });
-

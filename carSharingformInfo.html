@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,20 +8,36 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
         </script>
-
 </head>
 <body>
+    <button id = "backBtn" class = "back"> BACK</button>
     <div id="users">
-        
     </div>
-    
-   
     <script src="carSharingformInfo.js"></script>
 </body>
 <style>
     html{
-        
         background-color: #1C1C1C;
+    }
+    .back{
+        background-color: transparent;
+        width:10vh;
+        height:4vh;
+        margin-top:5vh;
+        border:0.3vh solid rgb(255, 255, 255);
+        border-radius: 1vh;
+        margin:3vh;
+        padding:1vh;
+        color:white;
+        font-size:1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:bold;
+    }
+    .back:hover{
+        border:0.3vh solid #C30000;
+        border-radius: 1vh;
+        padding:1vh;
+        margin:3vh;
     }
     .user_card{
         color:white;
