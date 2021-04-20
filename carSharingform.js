@@ -25,5 +25,6 @@ loginBtn.addEventListener("click",function(){
     users.push(userInfo);
 
     localStorage.setItem("users", JSON.stringify(users));
+     location.href = "carSharingformInfo.html";
 });
 

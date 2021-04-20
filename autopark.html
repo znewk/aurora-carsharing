@@ -22,7 +22,6 @@
     <!-- styles  -->
     <link rel="stylesheet" href="css/header-footer.css">
     <link rel="stylesheet" href="css/autopark.css">
-    <link rel="stylesheet" href="carSharingfooter.css">
     <!-- styles -->
     <!-- slider slick  -->
     <script src="./js/slick181/slick/slick.min.js"></script>
@@ -37,17 +36,18 @@
         <div class="head-footContainer">
             <div class="header">
 
-                <div class="headerLogo" onclick="location.href='index.html'">
+                <div class="headerLogo " onclick="location.href='index.html'">
                     <span class="logoTitle">AURORA</span>
                     <span class="logoTitle logoSpan">CARSHARING SERVICE</span>
                 </div>
 
                 <div class="headerMenu">
                     <ul class="menuItems">
-                        <a href="carSharingService.html" class="menuItem">УСЛУГИ</a>
+                        <a class="menuItem">УСЛУГИ</a>
                         <a class="menuItem" href='autopark.html'>АВТО-ПАРК</a>
                         <a class="menuItem" href="index.html">ГЛАВНАЯ</a>
-                        <a href="carSharingCondition.html" class="menuItem">УСЛОВИЯ</a>
+                        <a class="menuItem">УСЛОВИЯ</a>
+                        <a href  = "carSharingform.html" class="menuItem">РЕГИСТРАЦИЯ</a>
                     </ul>
                 </div>
 
@@ -104,8 +104,6 @@
                     Красный <br>
                 </span>
             </div>
-
-            <button class="addToCartButton">Добавить в корзину</button>
         </div>
         <div class="carSelectBlock">
             <div class="carSelectHeader">
@@ -175,70 +173,9 @@
 
         </div>
     </div>
-    <div class="black">
-        <div class="first">
-            <div class="h1_h3">
-                <p class="big">AURORA</p>
-                <p class="medium">CARSHARING SERVICE</p>
-            </div>
-
-            <p class="small">ЖИВИ В ДВИЖЕНИИ.</p>
-            <div class="logo">
-                <div class="insta_white">
-                    <img class="insta" src="./media/img/instagram (1).png" alt="">
-                </div>
-                <div class="face_white">
-                    <img class="face" src="./media/img/facebook (1).png" alt="">
-                </div>
-                <div class="twit_white">
-                    <img class="twit" src="./media/img/twitter (1).png" alt="">
-                </div>
-
-            </div>
-        </div>
-        <div class="navigate">
-            <p class="navigation">НАВИГАЦИЯ</p>
-            <div class="ssylki">
-                <ul class="otmena_tochek">
-                    <li class="usluga"><a class="red" href="№">УСЛУГИ</a></li>
-                    <li class="uslovia"><a class="white" href="#">УСЛОВИЯ</a></li>
-                    <li class="avto_park"><a class="white" href="#">АВТО-ПАРК</a></li>
-                    <li class="glavnaya"><a class="white" href="#">ГЛАВНАЯ</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="contacts_connection">
-            <p class="contact">КОНТАКТЫ И СВЯЗЬ</p>
-            <div class="address">
-                <div class="logo_2">
-                    <div class="gis_white">
-                        <img class="gis" src="./media/img/address.png" alt="">
-                    </div>
-                    <div class="tele_white">
-                        <img class="telephone" src="./media/img/call.png" alt="">
-                    </div>
-                    <div class="post_white">
-                        <img class="post" src="./media/img/mail.png" alt="">
-                    </div>
-
-                </div>
-                <ul class="vse_dannye">
-                    <li class="mesto">Almaty,Seifullina Ave,402,office 322</li>
-                    <li class="phone">+7 (708) 615 7439</li>
-                    <li class="e_mail">aurora-carsharing@gmail.com</li>
-                </ul>
-            </div>
-        </div>
-        <iframe
-            src="https://yandex.ru/map-widget/v1/?um=constructor%3Aac625a8419bfc5564fcfa5083b0fc7af624daf5daecb3460c1b9795e56455622&amp;source=constructor"
-            width="350" height="200" frameborder="0"></iframe>
-    </div>
 
 
-    <script>
-        let userCart = [0]
-        let setCart = localStorage.setItem('userCart', JSON.stringify(userCart))
-    </script>
+
     <script src="./js/autopark.js"></script>
     <script>
         $('.single-item').slick({
@@ -253,7 +190,7 @@
         });
 
         $('.responsive').slick({
-            slidesToShow: 5,
+            slidesToShow: 3,
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 2000,
