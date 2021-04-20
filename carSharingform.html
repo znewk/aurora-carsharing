@@ -13,32 +13,31 @@
 </head>
 
 <body>
-
+    
 
     <div class="form">
         <p class=" create">Создать аккаунт</p>
-        <div class="formbottom">
-            <div class="inputs">
-                <input type="text" id="nameInput" placeholder=" Your Name" class="input"> <br>
-                <input type="email" id="emailInput" placeholder=" Your Email" class="input"> <br>
-                <input type="password" id="passwordInput" placeholder="Your Password" class="input"> <br>
-            </div>
-
-            <div class="checkbox" id="checkbox">
-                <input type="checkbox" class="cb">
-                <p class="agree">Я согласен с условиями подписки</p>
-            </div>
-            <div class="button">
-                <button id="loginBtn" class="login">LOGIN</button>
-
-            </div>
+        <div class = "formbottom">
+          <div class="inputs">
+            <input type="text" id = "nameInput" placeholder=" Your Name" class="input"> <br>
+            <input type="email" id = "emailInput" placeholder=" Your Email" class="input"> <br>
+            <input type="password"  id = "passwordInput" placeholder="Your Password" class="input"> <br>
         </div>
 
-    </div>
-    
-    <script src="carSharingform.js"></script>
-    
-    <script src="carSharingformInfo.js"></script>
+        <div class="checkbox" id = "checkbox" >
+            <input type="checkbox" class  = "cb" >
+            <p class="agree">Я согласен с условиями подписки</p>
+        </div>
+        <div class = "button">
+             <button id = "loginBtn" class = "login">LOGIN</button>
+
+        </div>  
+        </div>
+     
+</div>
+       
+   
+<script src="carSharingform.js"></script>
 </body>
 
 
@@ -46,100 +45,80 @@
     html {
         background-color: #1C1C1C;
     }
-
-    body {
-        font-family: Arial, Helvetica, sans-serif;
+    body{
+        font-family:Arial, Helvetica, sans-serif ;
         font-weight: bold;
-        display:flex;
     }
-
     .form {
         background-color: #FFFBFB;
         border-radius: 5%;
         width: 30vh;
         height: 40vh;
         padding: 2vh;
-        margin: auto;
-        margin-top: 25vh;
-    }
-    .form2 {
-        background-color: #FFFBFB;
-        border-radius: 5%;
-        width: 50vh;
-        height: 40vh;
-        padding: 2vh;
         margin:auto;
-        margin-top: 25vh;
+        margin-top:25vh;
     }
-
+    
     .create {
         text-align: center;
         font-size: 1.8em;
-        margin: 2vh;
-        margin-top: 3vh;
+        margin:2vh;
+        margin-top:3vh;
     }
-
-    .formbottom {
-        margin-top: 3vh;
+    .formbottom{
+        margin-top:3vh;
     }
-
-    .inputs {
-
-        width: 30vh;
-        margin: auto;
+    .inputs{
+        
+        width:30vh;
+        margin:auto;
     }
-
-    .input {
+    .input{
         border-radius: 1vh;
-        border: 0.1vh solid black;
-        margin: 0.9vh;
-        padding: 0.7vh;
-        width: 27vh;
+        border:0.1vh solid black;
+        margin:0.9vh;
+        padding:0.7vh;
+        width:27vh;
     }
 
     .checkbox {
         display: flex;
-        margin: auto;
-        width: 30vh;
-        margin-top: 0.5vh;
+        margin:auto;
+        width:30vh;
+        margin-top:0.5vh;
 
     }
-
-    .cb {
+    .cb{
         border-radius: 1vh;
-        border: 0.1vh solid black;
-        margin-left: 1vh;
+        border:0.1vh solid black;
+        margin-left:1vh;
     }
-
     .agree {
-        padding: 0.5vh;
+        padding:0.5vh;
         margin: 0px;
         font-size: 1em;
-
+        
     }
-
-    .button {
-        margin: auto;
-        width: 30vh;
-        margin-top: 4vh;
+    .button{
+        margin:auto;
+        width:30vh;
+        margin-top:4vh;
     }
-
-    .login {
-        font-family: Arial, Helvetica, sans-serif;
+    .login{
+        font-family:Arial, Helvetica, sans-serif ;
         font-weight: bold;
-        font-size: 1em;
-        color: white;
-        margin-left: 1vh;
+        font-size:1em;
+        color:white;
+        margin-left:1vh;
         border-radius: 1vh;
-        border: 0.1vh solid black;
-        padding: 0.7vh;
-        width: 28vh;
-        background-color: lightgray;
+        border:0.1vh solid black;
+       padding:0.7vh;
+        width:28vh;
+        background-color:lightgray;
     }
-
-    .login:hover {
+    .login:hover{
         border-radius: 1vh;
-        border: 0.1vh solid black;
+        border:0.1vh solid black;
         background-color: black;
     }
 </style>
